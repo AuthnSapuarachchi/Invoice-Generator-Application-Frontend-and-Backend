@@ -1,0 +1,30 @@
+/* Add your landing page styles here */
+.landing-page {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Responsive background and header tweaks for landing page */
+.landing-page-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e3eafc 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .landing-page-bg header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .landing-page-bg header {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}

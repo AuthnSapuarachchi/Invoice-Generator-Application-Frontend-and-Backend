@@ -1,0 +1,45 @@
+# Backend - Maven
+backend/target/
+backend/*.log
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Frontend - Node
+fronetend/node_modules/
+fronetend/dist/
+fronetend/build/
+fronetend/.vite/
+fronetend/.env
+fronetend/.env.local
+fronetend/.env.production
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Sensitive files
+application-local.properties
+application-dev.properties
+.env

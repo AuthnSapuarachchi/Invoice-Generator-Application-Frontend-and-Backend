@@ -1,0 +1,38 @@
+/* Template02 - Blue Accent Modern Invoice */
+.template2 {
+    color: #1a202c;
+    background: #f8fafc;
+}
+.company-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2563eb;
+}
+.invoice-title {
+    color: #2563eb;
+    font-size: 30px;
+    font-weight: bold;
+}
+.billing-title {
+    color: #2563eb;
+    font-size: 17px;
+    font-weight: bold;
+}
+.table-header {
+    background-color: #2563eb !important;
+    color: white !important;
+}
+.totals-box {
+    background: #e0e7ff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.border-primary {
+    border-color: #2563eb !important;
+}
+.bg-light {
+    background: #f8fafc !important;
+}
+.text-primary {
+    color: #2563eb !important;
+}

@@ -1,0 +1,44 @@
+
+.m-800 {
+    max-width: 800px;
+}
+
+.company-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.invoice-title {
+    color: #ea580c;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.billing-title {
+    color: #ea580c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.orange-border {
+    border-color: #ea580c !important;
+}
+
+.billing-box {
+    background-color: #fff7ed;
+}
+
+.table-header {
+    background-color: #ea580c !important;
+    color: white !important;
+}
+
+.total-box {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f4cc9a;
+}
+
+.total-heighlight, .template1, .company-title {
+    color: #191918;
+}

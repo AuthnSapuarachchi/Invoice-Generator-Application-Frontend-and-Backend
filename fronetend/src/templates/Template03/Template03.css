@@ -1,0 +1,38 @@
+/* Template03 - Dark Accent Clean Invoice */
+.template3 {
+    color: #212529;
+    background: #fff;
+}
+.company-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a0a23;
+}
+.invoice-title {
+    color: #0a0a23;
+    font-size: 30px;
+    font-weight: bold;
+}
+.billing-title {
+    color: #0a0a23;
+    font-size: 17px;
+    font-weight: bold;
+}
+.table-header, .table-dark {
+    background-color: #0a0a23 !important;
+    color: white !important;
+}
+.totals-box {
+    background: #e5e7eb;
+    font-size: 16px;
+    font-weight: bold;
+}
+.border-dark {
+    border-color: #0a0a23 !important;
+}
+.bg-light {
+    background: #f3f4f6 !important;
+}
+.text-primary {
+    color: #0a0a23 !important;
+}

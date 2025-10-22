@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.spin-animation {
+    animation: spin 1s linear infinite;
+}
+
+.mainpage input:focus,
+.invoiceform input:focus,
+.invoiceform textarea:focus,
+.invoiceform select:focus {
+    box-shadow: none !important;
+}
+
+.previewpage .invoice-preview {
+    width: 794px;
+    min-height: 1123px;
+    background-color: #f9f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

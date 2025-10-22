@@ -1,0 +1,38 @@
+/* Template05 - Red Accent Invoice */
+.template5 {
+    color: #7f1d1d;
+    background: #fff5f5;
+}
+.company-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc2626;
+}
+.invoice-title {
+    color: #dc2626;
+    font-size: 30px;
+    font-weight: bold;
+}
+.billing-title {
+    color: #dc2626;
+    font-size: 17px;
+    font-weight: bold;
+}
+.table-header, .table-danger {
+    background-color: #dc2626 !important;
+    color: white !important;
+}
+.totals-box {
+    background: #fecaca;
+    font-size: 16px;
+    font-weight: bold;
+}
+.border-danger {
+    border-color: #dc2626 !important;
+}
+.bg-light {
+    background: #fff5f5 !important;
+}
+.text-danger {
+    color: #dc2626 !important;
+}
