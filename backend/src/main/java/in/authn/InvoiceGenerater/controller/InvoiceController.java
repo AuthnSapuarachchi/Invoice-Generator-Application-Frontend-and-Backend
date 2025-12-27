@@ -3,9 +3,7 @@ package in.authn.InvoiceGenerater.controller;
 import in.authn.InvoiceGenerater.entity.Invoice;
 import in.authn.InvoiceGenerater.service.EmailService;
 import in.authn.InvoiceGenerater.service.InvoiceService;
-import jakarta.mail.MessagingException;
 import lombok.RequiredArgsConstructor;
-import in.authn.InvoiceGenerater.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.io.IOException;
 import java.util.List;
 
 @RestController
