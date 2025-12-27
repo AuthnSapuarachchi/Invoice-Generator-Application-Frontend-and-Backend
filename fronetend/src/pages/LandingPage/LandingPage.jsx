@@ -3,6 +3,7 @@ import "./LandingPage.css";
 import {assets} from "../../assets/assets.js";
 import Logo from "../../components/Logo.jsx";
 import {Facebook, Linkedin, Twitter} from "lucide-react";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
 
@@ -21,9 +22,9 @@ const LandingPage = () => {
             </p>
             <div className="d-flex flex-column flex-md-row justify-content-center gap-3">
               {/* Primary call to Action  */}
-              <button className="btn btn-primary btn-lg px-4 py-2">
+              <Link to="/dashboard" className="btn btn-primary btn-lg px-4 py-2">
                 Generate Your First Invoice
-              </button>
+              </Link>
               {/* Secondary call to action */}
               <button className="btn btn-outline-secondary btn-lg px-4 py-2">
                 Learn More
@@ -205,9 +206,9 @@ const LandingPage = () => {
             <div className="container text-center">
                 <h2 className="fw-bold mb-3">Ready to Streamline Your Invoicing?</h2>
                 <p className="mb-4 lead text-secondary">Join thousands of businesses using Quick Invoice to save time and get paid faster. Start your free trial today!</p>
-                <button className="btn btn-primary btn-lg px-5 py-3 shadow-sm">
+                <Link to="/generate" className="btn btn-primary btn-lg px-5 py-3 shadow-sm">
                     Start Generating Invoices Now
-                </button>
+                </Link>
                 <p className="mt-3 text-muted fst-italic" style={{ fontSize: '0.9rem' }}>
                     (This will lead you to the invoice generation page)
                 </p>
