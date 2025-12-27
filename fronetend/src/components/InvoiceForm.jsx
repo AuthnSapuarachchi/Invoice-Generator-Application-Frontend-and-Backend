@@ -104,9 +104,6 @@ const InvoiceForm = () => {
         }
     }, []);
 
-
-
-
     return (
         <div className="invoiceform" style={{ maxWidth: '100%', height: '100%', overflowY: 'auto', padding: '0' }}>
             <div style={{ padding: '24px' }}>
